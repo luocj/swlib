@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="vendor\regex\JRegex.h">
+      <Filter>vendor\regex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\buffer.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\buffer_compat.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\bufferevent.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\bufferevent_compat.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\bufferevent_ssl.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\bufferevent_struct.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\dns.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\dns_compat.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\dns_struct.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\event.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\event_compat.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\event_struct.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\event-config.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\http.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\http_compat.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\http_struct.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\keyvalq_struct.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\listener.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\rpc.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\rpc_compat.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\rpc_struct.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\tag.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\tag_compat.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\thread.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\event2\util.h">
+      <Filter>dependency\libevent\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\libevent\tree.h">
+      <Filter>dependency\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependency\include\sqlapi\SQLAPI.h">
+      <Filter>dependency\sqlapi</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\arraylist.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\bits.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\config.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\debug.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\json.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\json_c_version.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\json_config.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\json_inttypes.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\json_object.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\json_object_iterator.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\json_object_private.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\json_tokener.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\json_util.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\linkhash.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\math_compat.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\printbuf.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\jsonc\random_seed.h">
+      <Filter>vendor\jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lapi.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lauxlib.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lcode.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lctype.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\ldebug.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\ldo.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lfunc.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lgc.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\llex.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\llimits.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lmem.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lobject.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lopcodes.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lparser.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lprefix.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lstate.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lstring.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\ltable.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\ltm.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lua.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lua.hpp">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\luaconf.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lualib.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lundump.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lvm.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lzio.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="swdef.h" />
+    <ClInclude Include="base\base_connection.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_connection_mgr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_date_time.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_def.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_guard.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_inet_addr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_listener.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_log.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_log_macro.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_log_thread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_namespace.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_net_thread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_object_pool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_os.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_queue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_singleton.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_thread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_thread_mutex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_typedef.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\core_frame.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\md5\md5.h">
+      <Filter>vendor\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_bin_stream.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_block_buffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_hex_string.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lua\lua_tinker.h">
+      <Filter>vendor\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_lua.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\json_lua.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_timer_mgr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_db_access.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_core_packet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_server_info.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_http.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\aes\aes.h">
+      <Filter>vendor\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="base\system_cookie.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mindump.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\uuid.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base64.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base_nodes_load.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vendor\regex\JRegex.c">
+      <Filter>vendor\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\arraylist.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\debug.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\json_c_version.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\json_object.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\json_object_iterator.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\json_tokener.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\json_util.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\libjson.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\linkhash.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\printbuf.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\jsonc\random_seed.c">
+      <Filter>vendor\jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lapi.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lauxlib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lbaselib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lbitlib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lcode.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lcorolib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lctype.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\ldblib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\ldebug.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\ldo.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\ldump.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lfunc.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lgc.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\linit.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\liolib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\llex.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lmathlib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lmem.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\loadlib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lobject.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lopcodes.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\loslib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lparser.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lstate.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lstring.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lstrlib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\ltable.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\ltablib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\ltm.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lundump.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lutf8lib.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lvm.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lzio.c">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_connection.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_date_time.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_inet_addr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_listener.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_log_macro.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_log_thread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_net_thread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_thread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\core_frame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\md5\md5.cpp">
+      <Filter>vendor\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_hex_string.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\lua\lua_tinker.cpp">
+      <Filter>vendor\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_lua.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\json_lua.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_timer_mgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_connection_mgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_db_access.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_core_packet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_http.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\aes\aes.c">
+      <Filter>vendor\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="base\system_cookie.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base64.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base_nodes_load.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dependency">
+      <UniqueIdentifier>{d5c6cbda-d8cf-4bbc-b99c-e15b80caa9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependency\sqlapi">
+      <UniqueIdentifier>{5a370753-fdb9-4dcc-bf1d-898d9ca9f44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{6d183b63-9bc5-4022-8f09-28bc1bdac7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\jsonc">
+      <UniqueIdentifier>{364a41ad-4f0b-4167-83f6-2e197ef4f1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\md5">
+      <UniqueIdentifier>{7c99a42f-84dc-419e-a0a1-a880d0219494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\regex">
+      <UniqueIdentifier>{e30c2651-6d5a-4446-9a54-127894b86367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependency\libevent">
+      <UniqueIdentifier>{18fbf14f-ae6c-4be0-ad97-f85fd7fb34af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependency\libevent\event2">
+      <UniqueIdentifier>{dd79951e-cc1a-437b-9d6a-f323ca4e6883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\lua">
+      <UniqueIdentifier>{032535a2-5581-4877-a8cd-2ea5b4341dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8926d0f5-3e39-4b6a-abd3-dc5d04438d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\aes">
+      <UniqueIdentifier>{e5f8d7f4-c9e8-4d3d-a7e5-8578068ec07e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
