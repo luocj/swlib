@@ -1,0 +1,2 @@
+# swlib
+一个集成libevent，lua_tinker的跨平台服务端框架，使用这个框架能快速的使用lua完成服务的代码部署
